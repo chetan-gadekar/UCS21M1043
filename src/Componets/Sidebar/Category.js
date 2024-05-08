@@ -35,47 +35,21 @@ export default function Category({ setSelectedCategory }) {
             type="radio"
             name="category"
             value="Camera"
-            onChange={() => handleCategoryChange("Camera")}
+            onChange={() => handleCategoryChange("mobile")}
           />
-          <span className='checkmark'></span>Camera
+          <span className='checkmark'></span>mobile
         </label>
         <label className='sidebar-label-container' >
           <input
             type="radio"
             name="category"
             value="Oven"
-            onChange={() => handleCategoryChange("Oven")}
+            onChange={() => handleCategoryChange("aptop")}
           />
-          <span className='checkmark'></span>Oven
-        </label>
-        <label className='sidebar-label-container' >
-          <input
-            type="radio"
-            name="category"
-            value="Refrigerator"
-            onChange={() => handleCategoryChange("Refrigerator")}
-          />
-          <span className='checkmark'></span>Refrigerator
-        </label>
-        <label className='sidebar-label-container' >
-          <input
-            type="radio"
-            name="category"
-            value="Tools"
-            onChange={() => handleCategoryChange("Tools")}
-          />
-          <span className='checkmark'></span>Tools
-        </label>
-        <label className='sidebar-label-container' >
-          <input
-            type="radio"
-            name="category"
-            value="Cables"
-            onChange={() => handleCategoryChange("Cables")}
-          />
-          <span className='checkmark'></span>Cables
+          <span className='checkmark'></span>laptop
         </label>
       </div>
     </div>
   );
 }
+

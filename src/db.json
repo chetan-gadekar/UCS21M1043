@@ -8,14 +8,14 @@
         "availability": true
       },
       {
-        "productname": "Product 2",
+        "productname": "laptop",
         "price": 39.99,
         "rating": 4.2,
         "discount": 0,
         "availability": false
       },
       {
-        "productname": "Product 3",
+        "productname": "mobile",
         "price": 15.49,
         "rating": 3.8,
         "discount": 0.2,
